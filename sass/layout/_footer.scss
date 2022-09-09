@@ -1,0 +1,108 @@
+
+.footer {
+    background-color: var(--secondary-background-color);
+    padding: 60px 0;
+
+  
+  &__container {
+    display: flex;
+    align-items: baseline;
+    margin: auto;
+  
+  }
+  &__address-data {
+    margin-right: 70px;
+
+  }
+}
+
+.header__logo--color {
+    padding: 0;
+    margin-bottom: 20px;
+  
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  
+  .contact__item {
+    margin-bottom: 9px;
+  }
+  
+  .contact__address {
+    color: var(--primary-white-color);
+    line-height: 1.71;
+    font-style: normal;
+    font-weight: 400;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contact__group {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contact__item .link:hover,
+  .contact__item .link:focus {
+    color: var(--accent-color);
+  }
+  
+  .links__title, 
+  .subscribe__title {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .footer__icons {
+    fill: var(--primary-white-color); 
+  }
+  
+  .subscribe {
+    margin-left: auto;
+  
+  &__form {
+  display: flex;
+  }
+  
+  &__email {
+    width: 358px;
+    height: 50px;
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+    border-radius: 4px;
+    padding: 15px 16px;
+  }
+  &__btn {
+    width: 200px;
+    height: 50px;
+    content: "";
+    margin-left: 12px;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+  }
+  
+  &__icon {
+    margin-left: 10px;
+    fill: currentColor;
+  }
+}
+
+.btn-mode-blue :hover,
+.btn-mode-blue :focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-pressing-color);
+
+}
+  
