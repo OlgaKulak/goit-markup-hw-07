@@ -236,7 +236,7 @@ label {
 .navigation__list .navigation__item:not(:last-child) {
   margin-right: 50px;
 }
-.navigation__list .navigation__link--current {
+.navigation .navigation__link.navigation__link--current {
   color: var(--accent-color);
 }
 .navigation__list .navigation__link {

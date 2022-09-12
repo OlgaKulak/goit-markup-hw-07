@@ -11,8 +11,7 @@
   &__list &__item:not(:last-child) {
     margin-right: 50px;
   }
-  
-  &__list &__link--current {
+  .navigation__link.navigation__link--current {
     color: var(--accent-color);
   }
   
@@ -45,3 +44,5 @@
     opacity: 1;
   }
 }
+
+  
